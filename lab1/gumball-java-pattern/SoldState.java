@@ -1,4 +1,4 @@
-package cmpe202.cmpe202_2;
+
 
 public class SoldState implements State {
 	 
