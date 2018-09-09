@@ -1,5 +1,3 @@
-package cmpe202.cmpe202_2;
-
 public class SoldOutState implements State {
     GumballMachine gumballMachine;
  
