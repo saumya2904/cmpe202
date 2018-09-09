@@ -1,5 +1,3 @@
-package cmpe202.cmpe202_2;
-
 public interface State {
 	 
 	public void insertQuarter();
