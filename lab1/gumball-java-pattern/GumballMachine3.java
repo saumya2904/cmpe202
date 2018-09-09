@@ -15,15 +15,4 @@ public class GumballMachine3 extends GumballMachine {
 		else 
 			state= noQuarterState;
 	}
-
-	public void ejectCoins() {
-		state.ejectQuarter();
-	}
- 
-	public void turnCrank() {
-		state.turnCrank();
-		state.dispense();
-	}
-	
-
 }
