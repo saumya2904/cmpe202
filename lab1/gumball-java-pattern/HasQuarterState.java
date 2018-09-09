@@ -1,5 +1,3 @@
-package cmpe202.cmpe202_2;
-
 import java.util.Random;
 
 @SuppressWarnings("unused")
