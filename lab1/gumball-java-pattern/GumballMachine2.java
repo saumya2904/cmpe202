@@ -1,4 +1,3 @@
-package cmpe202.cmpe202_2;
 
 public class GumballMachine2 extends GumballMachine{
 	public GumballMachine2(int numberGumballs)
