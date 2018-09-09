@@ -21,6 +21,16 @@ public class GumballMachine {
 			state = noQuarterState;
 		} 
 	}
+	
+	 
+	public void ejectQuarter() {
+		state.ejectQuarter();
+	}
+ 
+	public void turnCrank() {
+		state.turnCrank();
+		state.dispense();
+	}
 
 	void setState(State state) {
 		this.state = state;
