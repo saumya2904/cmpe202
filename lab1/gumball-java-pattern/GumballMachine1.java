@@ -9,15 +9,7 @@ public class GumballMachine1 extends GumballMachine {
 	public void insertQuarter() {
 		state.insertQuarter();
 	}
- 
-	public void ejectQuarter() {
-		state.ejectQuarter();
-	}
- 
-	public void turnCrank() {
-		state.turnCrank();
-		state.dispense();
-	}
+
 	
 
 }
